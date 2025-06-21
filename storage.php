@@ -26,7 +26,7 @@ if (isset($_GET['delete'])) {
 if ($_SERVER["REQUEST_METHOD"] === "POST" && isset($_FILES["zipfile"])) {
     $uploadedFile = $_FILES["zipfile"];
     echo $uploadedFile["type"];
-    if ($uploadedFile["type"] !== "application/zip") {
+    if ($uploadedFile["type"] !== "application/zip" ||$uploadedFile["type"] !== "application/x-zip-compressed") {
         echo "<p style='color:red;'>Només es permeten arxius ZIP.</p>";
     } else {
         $blobName = basename($uploadedFile["name"]);
