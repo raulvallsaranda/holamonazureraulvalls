@@ -25,6 +25,7 @@ if (isset($_GET['delete'])) {
 // Pujada d'arxiu ZIP
 if ($_SERVER["REQUEST_METHOD"] === "POST" && isset($_FILES["zipfile"])) {
     $uploadedFile = $_FILES["zipfile"];
+    echo $uploadedFile["type"];
     if ($uploadedFile["type"] !== "application/zip") {
         echo "<p style='color:red;'>Només es permeten arxius ZIP.</p>";
     } else {
