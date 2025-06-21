@@ -74,5 +74,8 @@ try {
         <input type="file" name="zipfile" accept=".zip" required>
         <button type="submit">Pujar</button>
     </form>
+    <p>
+        <a href="../index.php">Tornar a index.php</a>
+    </p>
 </body>
 </html>

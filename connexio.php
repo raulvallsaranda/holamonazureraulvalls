@@ -60,6 +60,9 @@ $dsn = "mysql:host={$dbHost};dbname={$dbName};charset=utf8mb4";
                 }
                 ?>
             </p>
+            <p>
+                <a href="../index.php">Tornar a index.php</a>
+            </p>
         </main>
         <footer>
             <p>Curs Azure Cefire 2025</p>

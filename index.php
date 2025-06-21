@@ -19,6 +19,10 @@
                 echo "Raül Valls Aranda";
                 ?>
             </p>
+            <p>
+                <a href="./storage.php">Emmagatzematge en contenidors</a><br>
+                <a href="./connexio.php">Prova connexió amb Base de dades AZURE mysql</a>
+            </p>
         </main>
         <footer>
             <p>Curs Azure Cefire 2025</p>
