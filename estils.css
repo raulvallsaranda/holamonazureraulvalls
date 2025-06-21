@@ -35,7 +35,7 @@ header h1{
 main{
     margin: 10px auto;
     min-height: 400px;
-    border: solid 4px green;
+    border: solid 4px red;
     width: 80%;
     text-align: center;
     padding:10px;
